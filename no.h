@@ -1,6 +1,13 @@
 #include <stdio.h>
 
 #define MAX_VERTICES 8
+/*
+Necessario:
+
+Adicionar ou remover nós
+Função para verificar a existência de um caminho entre dois nós
+Uma função para imprimir todas as arestas do grafo. EX: A - 5 - B
+*/
 
 int adj_matrix[MAX_VERTICES][MAX_VERTICES];
 
