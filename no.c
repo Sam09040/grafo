@@ -42,7 +42,6 @@ void verificaAresta(grafo *grafo, char no1, char no2){
         printf("Existe um caminho!\n");
         printf("%c - %d - %c\n", no1, grafo->matrizAdjacencia[index1][index2], no2);
     }else{
-
         printf("Nao existe caminho.\n");
     }
 }
